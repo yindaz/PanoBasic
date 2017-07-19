@@ -1,11 +1,18 @@
-Toolbox for panorama image processing
+# Toolbox for panorama image processing
 ---------------------------------------
 Please refer to instruction.pdf for details about supporting fuctions.
 
 If use this code as part of your project, please cite:
-Y. Zhang, S. Song, P. Tan, and J. Xiao
-PanoContext: A Whole-room 3D Context Model for Panoramic Scene Understanding
-Proceedings of the 13th European Conference on Computer Vision (ECCV2014)
+
+    @article{zhang2014panocontext,
+      title={Panocontext: A whole-room 3d context model for panoramic scene understanding},
+      author={Zhang, Yinda and Song, Shuran and Tan, Ping and Xiao, Jianxiong},
+      booktitle={European Conference on Computer Vision},
+      pages={668--686},
+      year={2014},
+      organization={Springer}
+    }
+
 ---------------------------------------
-Quick start:
+## Quick start:
 Run demo.m
