@@ -1,11 +1,11 @@
 # Toolbox for panorama image processing
----------------------------------------
+
 Please refer to instruction.pdf for details about supporting fuctions.
 
 If use this code as part of your project, please cite:
 
-Y. Zhang, S. Song, P. Tan, and J. Xiao
-PanoContext: A Whole-room 3D Context Model for Panoramic Scene Understanding
+Y. Zhang, S. Song, P. Tan, and J. Xiao  
+PanoContext: A Whole-room 3D Context Model for Panoramic Scene Understanding  
 Proceedings of the 13th European Conference on Computer Vision (ECCV2014)
 
     @article{zhang2014panocontext,
@@ -17,12 +17,12 @@ Proceedings of the 13th European Conference on Computer Vision (ECCV2014)
       organization={Springer}
     }
 
----------------------------------------
+
 
 If you have any question about the code, please feel free to contact:
 Yinda Zhang, yindaz at cs dot princeton dot edu
 
----------------------------------------
+
 
 ## Quick start:
 Run `demo_full.m` to see an "almost" complete list of functions in this toolbox. Some (not all) featured functions are:
@@ -33,7 +33,7 @@ Run `demo_full.m` to see an "almost" complete list of functions in this toolbox.
 - Find vanishing point.
 - Reconstruct 3D cuboid.
 
-For a full list of functions, please see `instruction.pdf`
+For a full list of functions, please see `instruction.pdf`.
 
 ## Matterport3D support:
 Run `demo_matterport.m` to see how to stitch panorama for Matterport3D dataset. Note that:
@@ -45,12 +45,12 @@ If you stitch from undistorted_color/depth_images:
 - The demo only takes the 6 horizontal views as example, and assumes 60 degrees between each pair of adjacent views. This may not be true in practice, and a perfectly accurate panorama stitching requires accurate calculation of (vx,vy) from camera extrinsic matrices.
 - Given more accurate (vx/vy) calculated for upward/downward looking views, you may stitch 18 views together for a more complete panorama.
 
----------------------------------------
+
 
 ## FAQ:
-Q1: Windows users will get an error when calling function "lsdWrap.m". 
-A1: The Windows command line does not support '/'. Please change all '/' in commands line to '\\' before sending them to "system" function in Matlab.
+Q: Windows users will get an error when calling function "lsdWrap.m".  
+A: The Windows command line does not support '/'. Please change all '/' in commands line to '\\' before sending them to "system" function in Matlab.
 
----------------------------------------
+
 ## License:
-This toolbox is under the MIT License: http://opensource.org/licenses/MIT
+This toolbox is under the MIT License: http://opensource.org/licenses/MIT.
