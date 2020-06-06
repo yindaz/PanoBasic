@@ -20,7 +20,7 @@ Proceedings of the 13th European Conference on Computer Vision (ECCV2014)
 
 
 If you have any question about the code, please feel free to contact:
-Yinda Zhang, yindaz at cs dot princeton dot edu
+Yinda Zhang, yindaz at gmail.
 
 
 
